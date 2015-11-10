@@ -8,7 +8,7 @@ var eioc = require('engine.io-client');
 var listen = require('./common').listen;
 var expect = require('expect.js');
 var request = require('superagent');
-var WebSocket = require('ws');
+var WebSocket = require('ws-pure');
 
 describe('JSONP', function () {
   before(function () {

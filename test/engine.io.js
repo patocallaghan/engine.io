@@ -23,7 +23,7 @@ describe('engine', function () {
   it('should be the same version as client', function(){
     expect(eio.protocol).to.be.a('number');
     var version = require('../package').version;
-    expect(version).to.be(require('engine.io-client/package').version);
+    expect(version).to.be(require('engine.io-client-pure/package').version);
   });
 
   describe('engine()', function () {

@@ -4,7 +4,7 @@
  */
 
 var http = require('http');
-var eioc = require('engine.io-client');
+var eioc = require('engine.io-client-pure');
 var listen = require('./common').listen;
 var expect = require('expect.js');
 var request = require('superagent');
